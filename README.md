@@ -8,15 +8,22 @@ To install the requirements, run the following command:
 pip install -r requirements.txt
 ```
 
-## 2 - Execute the PortScan
+## 2 - Execute the PortScanner
 *(command to execute the script)*
 
-To execute the PortScanner, run the following command:
+To execute the PortScanner:
+
+### On Linux:
+```bash
+python3 portscanner.py
+```
+
+### On Windows:
 ```bash
 python portscanner.py
 ```
 
-Within the PortScan execution:
+Within the PortScanner execution:
 1. Enter the target IP/URL.
 2. Enter the starting port for the scan.
 3. Enter the maximum port for the scan.
