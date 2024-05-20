@@ -22,6 +22,10 @@ python3 portscanner.py
 ```bash
 python portscanner.py
 ```
+# or
+```bash
+python portscanner.py
+```
 
 Within the PortScanner execution:
 1. Enter the target IP/URL.
