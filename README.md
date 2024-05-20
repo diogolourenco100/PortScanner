@@ -24,7 +24,7 @@ python portscanner.py
 ```
 ##### or
 ```bash
-python portscanner.py
+py portscanner.py
 ```
 
 ## Within the PortScanner execution:
