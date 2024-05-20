@@ -22,7 +22,7 @@ python3 portscanner.py
 ```bash
 python portscanner.py
 ```
-# or
+#### or
 ```bash
 python portscanner.py
 ```
