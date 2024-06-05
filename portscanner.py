@@ -14,7 +14,7 @@ print(green(banner))
 
 print(red('by Diogo S. Lourenco'))
 print(magenta('-')*60)
-print(yellow('\nThis Script will scan from port 1 to port 3389, with a scan time of approximately 3 seconds.\n'))
+print(yellow('\nThis Script will scan from port 1 to port 6000, with a scan time of approximately 3 seconds.\n'))
 ip = input("\nEnter the IP/URL target: ")
 
 print(green('\nScanning...\n'))
@@ -53,6 +53,6 @@ def thread_scan(ip, start_port, end_port, thread_count=100):
 
 @Calctime
 def scan():
-    thread_scan(ip, 1, 3389, thread_count=100)
+    thread_scan(ip, 1, 6000, thread_count=100)
 
 scan()
