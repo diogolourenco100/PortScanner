@@ -14,7 +14,7 @@ print(green(banner))
 
 print(red('by Diogo S. Lourenco'))
 print(magenta('-')*60)
-print(yellow('\nThis Script will scan from port 1 to port 6000, with a scan time of approximately 3 seconds.\n'))
+print(yellow('\nThis Script will scan from port 1 to port 6000, with a scan time of approximately 4 seconds.\n'))
 ip = input("\nEnter the IP/URL target: ")
 
 print(green('\nScanning...\n'))
