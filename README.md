@@ -22,12 +22,4 @@ python3 portscanner.py
 ```bash
 python portscanner.py
 ```
-##### or
-```bash
-py portscanner.py
-```
-
-## Within the PortScanner execution:
-1. Enter the target IP/URL.
-2. Enter the starting port for the scan.
-3. Enter the maximum port for the scan.
+## 3 - Enter the IP or URL to Scan
